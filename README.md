@@ -49,6 +49,12 @@ npm run build
 
 ```
 
+# Deployed Link
+> Deployed To Netlify [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+
+# Other Documentation
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
