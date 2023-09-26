@@ -50,7 +50,7 @@ npm run build
 ```
 
 # Deployed Link
-> Deployed To Netlify [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> Deployed To Varcel [https://foxflue-assessment-henna.vercel.app/](https://foxflue-assessment-henna.vercel.app/) .
 
 
 # Other Documentation
