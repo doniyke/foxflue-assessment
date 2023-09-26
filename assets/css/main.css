@@ -1,3 +1,95 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 768px) {
+    div.pickup-data button{
+        border-radius: 20px;
+        font-size: 12px;
+        padding: 8px; 
+    }
+    div.pickup-data .icon .text-6xl{
+        font-size: 40px !important;
+    }
+    div.pickup-data h3.text-gray-500, h3.font-semibold{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    div.pickup-data h3, div.pickup-data h3.text-2xl, h3.font-bold{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    div.customer-data button.font-semibold{
+        font-size: 10px;
+    }
+    div.customer-data button .text-5xl {
+        font-size: 20px;
+    }
+    div.devices button.inspect{
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    div.devices h3 {
+        font-size: 13px;
+    }
+    div.devices h3.description {
+        font-size: 12px;
+    }
+    h3.title {
+        font-size: 23px !important;
+    }
+    div.nav-icons {
+        left: 0 !important;
+        right: 0 !important;
+    }
+    div.nav-icons button {
+        font-size: 10px;
+    }
+    div.nav-icons button .text-3xl{
+        font-size: 15px;
+    }
+}
+div.nav-icons {
+    position: fixed;
+    z-index: 9999 !important;
+    bottom: 0;
+    left: 33.3%;
+    right: 33.3%;
+}
+.btn-payment {
+    background-color: #0D3454;
+    color: #fff;
+}
+div.device button.bg-red-500 {
+    background-color: #FF005A !important;
+}
+.placeholder {
+    margin: 0;
+    max-width: 100%;
+    min-height: 80px;
+    background-color: #ccc;
+  }
+  @keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+  }
+  
+  .animated-background {
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f1f1f1;
+    background: linear-gradient(to right, #ccc 20%, #f1f1f1 35%, #ccc 1%);
+    background-size: 800px 104px;
+    height: 80px;
+    position: relative;
+  }
