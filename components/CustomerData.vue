@@ -1,4 +1,6 @@
 <script setup>
+import { ref, onMounted } from 'vue';
+
 const userLongitude = ref(null);
 const userLatitude = ref(null);
 const pickupLatitude = 40.690514;
