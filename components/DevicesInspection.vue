@@ -6,7 +6,8 @@
         <div class="flex justify-between border-b border-gray-300 pb-5 p-5" v-for="device, index in devices" :key="index">
             <div class="flex pt-5">
                 <div>
-                    <img :src="'_nuxt/assets/images/'+device.image" alt="" class="w-16 h-auto max-w-full object-contain">
+                    <img src="~/assets/images/apple-iphone-13-pro-max-01.jpg" alt="" class="w-16 h-auto max-w-full object-contain" v-if="index==0">
+                    <img src="~/assets/images/iphone13.jpg" alt="" class="w-16 h-auto max-w-full object-contain" v-if="index==1">
                 </div>
                 <div class="ms-2">
                     <h3 class="font-bold text-xl">{{ device.name }}</h3>
